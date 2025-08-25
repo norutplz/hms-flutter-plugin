@@ -30,6 +30,9 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'com.huawei.hms.flutter.ads'
     }
+    buildFeatures {
+        aidl = true
+    }
 
     defaultConfig {
         minSdkVersion 19
